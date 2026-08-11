@@ -40,7 +40,37 @@
 - **Edge deployability** становится ключевым дифференциатором (MiMo-7B в INT4 = 3.5 ГБ, работает на телефонах)
 - Глубокое внедрение AI-агентов в бизнес-процессы, продолжающееся снижение стоимости API
 
-### 7. OpenAI выпустила первые open-weight модели
+### 6. MiniMax M3 — лидер бенчмарков август 2026
+
+**MiniMax M3** (1 июня 2026):
+- **#1 по BenchLM** (рейтинг 68.8/100), обходит GPT-5.5 и Gemini 3.1 Pro на ключевых бенчмарках
+- **12× дешевле** GPT-5.5 на input-токенах
+- **1M токенов контекст**, мультимодальный ввод (текст, изображения, видео)
+- Сильный кодинг-бенч: 147 submit-ов, 1959 tool calls в CUDA-оптимизации
+- Open-weight, но не Apache 2.0 (менее открыт чем Llama/Qwen)
+
+### 7. Grok 4.5 (xAI) и NVIDIA Nemotron 3 Nano Omni
+
+**Grok 4.5**:
+- Топ-3 BenchLM август 2026
+- Прямой конкурент Nemotron 3 Nano Omni
+- Лучший на GPQA бенчмарке
+
+**NVIDIA Nemotron 3 Nano Omni (30B A3B)**:
+- Архитектура: 30B total / 3B active (MoE, Mamba-Transformer hybrid)
+- Мультимодальный: vision + speech + language в одной модели
+- Open-weight, оптимизирован для AI-агентов
+- Бесплатно через OpenRouter (Nemotron Nano 12B VL: free)
+- Выход: 28 апреля 2026, актуален август 2026
+
+### 8. Китайские open-weight модели — рост enterprise-адопции
+
+- Китайские open-weight модели захватывают enterprise (Vercel data)
+- Китай ввёл экспортный контроль на AI-модели (MOFCOM, 2025)
+- Риск регуляторных ограничений для западных компаний
+- Влияет на доступ к моделям от Alibaba, Baidu и других
+
+### 9. OpenAI выпустила первые open-weight модели
 |
 |**gpt-oss-120b** и **gpt-oss-20b** — первый релиз open-weight от OpenAI:
 |- gpt-oss-120b: 117B параметров, 5.1B active (MoE), работает на одном H100
