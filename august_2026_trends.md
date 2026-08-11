@@ -4,9 +4,21 @@
 
 ### 1. Open-Weight модели — обновлённая ситуация
 
-**Kimi K3** (Moonshot AI) — крупнейшая open-weight модель на июль 2026:
-- Лидирует в Frontend Code Arena, 76.8% на SWE-Bench Verified
-- Самый сильный open-модель для кодинга на август 2026
+**Kimi K2.6** (Moonshot AI, 20 апреля 2026) — обновлённый лидер:
+- 1T параметров MoE, 32B активны на токен, native INT4
+- **Agent Swarm**: 300 под-агентов, 4,000 координированных шагов
+- Лидирует на agentic-кодинг бенчмарках (GPT-5.4, Claude Opus 4.6)
+- 256K контекст, Modified MIT license
+- Быстрее всех: Code Preview → GA за 8 дней (13-20 апреля)
+
+**GLM-5.2** (Z.ai / Zhipu, 13 июня 2026) — конкурент K2.6:
+- ~753B параметров MoE, ~40B активны на токен
+- Топ open-модель для кодинга, аналог Claude Code (Z.ai Assistant)
+- Сильные long-horizon задачи
+
+**Kimi K3** (Moonshot AI):
+- 76.8% на SWE-Bench Verified
+- Сильный open-модель для кодинга
 
 **Qwen 3.8 Max** — 2.4T параметров, 16-дневная автономная способность кодинга
 **DeepSeek V4 Pro** — новые рекорды на SWE-bench
